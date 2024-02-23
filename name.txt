@@ -1,0 +1,60 @@
+Kumar
+Kumar
+cat "name.txt"
+
+
+git init
+ls
+git status
+git add .
+git commit -m "Initial"
+cat "name.txt"
+git restore --staged name.txt(just un add data)
+
+ git log(get all commit ids)
+ rm -rf name.txt (delet file)
+ git reset commitid 
+ -- if check git status that shows like deletd:name.txt(in red)
+Then
+git add . (modified will add )(green)
+git status
+
+--create file
+touch surname.txt(New-Item -ItemType File hotel.txt)
+git add.
+git status
+(Show like name.txt->surname.txt)
+
+
+Git Hub
+
+git remote add origin htto:bbhdugduh
+
+git remote -v (show all remote which are conneted to that project)
+
+git push origin master
+
+
+How to work in existing project
+
+
+fork that project to your git Hub
+
+git remote add upstream url(clone url)
+
+git remote -v (Shows origin and upstream)
+
+rmdir  .git (uninitilized the git)
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
