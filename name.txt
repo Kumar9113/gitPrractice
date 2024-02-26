@@ -47,6 +47,41 @@ git remote -v (Shows origin and upstream)
 rmdir  .git (uninitilized the git)
 
 
+----------------------------------------------------------------------------
+if you have permission
+
+-clone with master branch
+-open with vs code
+-make changes
+-git branch b1 /git checkout -b b1 
+-git add .
+-git commit -m "Initial"
+-git push origin b1
+
+
+
+---git pull origin b1
+
+automatically changes in master branch
+
+---------------------------------------------------------
+if you don't have permission
+
+-fist fork to your  git Hub
+-clone project with your github http link
+-open with vs code
+-make changes
+-git branch b1 /git checkout -b b1 
+-git add .
+-git commit -m "Initial"
+-git push origin b1
+
+-- send pull request
+
+
+
+
+
 
  
 
