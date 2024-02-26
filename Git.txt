@@ -167,6 +167,11 @@ without enter into stageing
  ~git remote add origin ssh-keygen -o
  ~git push -u origin main
 
+--pwd(present working directory)
+
+---Now How to push file form working dir to git hub
+
+
 
 
 
