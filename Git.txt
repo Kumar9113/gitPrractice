@@ -126,6 +126,15 @@ make different version  v1,v2,v3
 (follw checksum generate by SHH-1)
 ~git log 
 
+working dir --> stageing area(git add) --> commit History(git commit)
+
+without enter into stageing
+~git commit -a -m "Initial"
+
+
+
+
+
 
 
 
