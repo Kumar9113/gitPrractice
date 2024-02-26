@@ -78,7 +78,9 @@ if you don't have permission
 
 -- send pull request
 
-
+----------------------------------------------------------
+Git Class
+----------------------------------------------------------
 
 --version control
 make different version  v1,v2,v3
@@ -130,6 +132,22 @@ working dir --> stageing area(git add) --> commit History(git commit)
 
 without enter into stageing
 ~git commit -a -m "Initial"
+
+---Diff command----
+ (change some code in file. if want know what exactly change in file then)
+ ~ git diff(show in green ones)
+ (if your at staging then check what your changed  then)
+ ~git diff --staged
+
+---How To remove a file form git ---------
+
+--add all file 
+ ~git add.
+ 
+
+
+
+
 
 
 
