@@ -143,6 +143,9 @@ without enter into stageing
 
 --add all file 
  ~git add.
+ --dekete file
+ ~git rm --cached hotel.txt(hotel.txt file name) 
+ (now hotel.txt in unntracted means not in staged so you delete from working dir)
  
 
 
