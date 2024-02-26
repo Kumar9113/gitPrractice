@@ -141,12 +141,31 @@ without enter into stageing
 
 ---How To remove a file form git ---------
 
---add all file 
+--add all file to staged dir 
  ~git add.
  --dekete file
  ~git rm --cached hotel.txt(hotel.txt file name) 
  (now hotel.txt in unntracted means not in staged so you delete from working dir)
- 
+
+--
+~git clone url(copied all code of source code)HTTPS
+(see content of the file)
+~cat Git.txt
+
+(list of the files)
+~ls
+
+(create file) 
+~echo "Hello Kumar" >>README.md(md-mock Down)
+
+--concept about the github
+ --how to create and use that command in our local project
+ ~git init
+ ~git add .
+ ~git commit -m "intial"
+ ~git branch -M main
+ ~git remote add origin ssh-keygen -o
+ ~git push -u origin main
 
 
 
