@@ -47,36 +47,9 @@ git remote -v (Shows origin and upstream)
 rmdir  .git (uninitilized the git)
 
 
-----------------------------------------------------------------------------
-if you have permission
-
--clone with master branch
--open with vs code
--make changes
--git branch b1 /git checkout -b b1 
--git add .
--git commit -m "Initial"
--git push origin b1
 
 
 
----git pull origin b1
-
-automatically changes in master branch
-
----------------------------------------------------------
-if you don't have permission
-
--fist fork to your  git Hub
--clone project with your github http link
--open with vs code
--make changes
--git branch b1 /git checkout -b b1 
--git add .
--git commit -m "Initial"
--git push origin b1
-
--- send pull request
 
 ----------------------------------------------------------
 Git Class
@@ -147,7 +120,7 @@ without enter into stageing
  ~git rm --cached hotel.txt(hotel.txt file name) 
  (now hotel.txt in unntracted means not in staged so you delete from working dir)
 
---
+-------------------------------------------------------------------------------
 ~git clone url(copied all code of source code)HTTPS
 (see content of the file)
 ~cat Git.txt
@@ -158,7 +131,7 @@ without enter into stageing
 (create file) 
 ~echo "Hello Kumar" >>README.md(md-mock Down)
 
---concept about the github
+--concept about the github(How To Work on Our own repo)
  --how to create and use that command in our local project
  ~git init
  ~git add .
@@ -170,6 +143,98 @@ without enter into stageing
 --pwd(present working directory)
 
 ---Now How to push file form working dir to git hub
+ ~git commit -a -m "intial"
+ ~git push origin master
+
+~git remote -v(Which is your origin form server to client shows)
+
+__Tags______
+
+
+Tag--version
+->Annotated Tagging(mostly use)
+->LightWeight Tagging
+
+~git tag -a v1.0 -m "1st realese"
+~git tag(show all tags)
+~git push origin v1.0
+
+-------------------------------------------------------
+(upTo Now we have seen How to work on our own repo 
+ Now see how to work on other repo
+)
+
+~git log (all comments)
+~git tag (show all tags)
+~git show 1.79.0(show what is commit number  and date)
+~git log --pretty=oneline
+
+(if you made changes in source code )
+ after that 
+ ~git commit -a -m "message"
+ ~git remote origin main(evnen you log  it but not allowed due no permission)
+
+(create branch)
+~git switch/chechout -c/-b feture(feture branch name)
+~git branch(show what are the branches have)
+
+
+(if in feture branch commit some code then you switch into main branch then 
+main branch has no idea about the  feture branch commit code)
+
+~git switch main(switch into main branch)
+~git switch - (perivous branch)
+~git branch -d feture(delete feture branch)
+~git push origin branch1
+
+
+_________________________
+--merege branch and main
+~git merge feture(feture is branch name )
+
+--pull 
+~git pull branch
+
+----------------------------------------------------------------------------
+if you have permission
+
+-clone with master branch
+-open with vs code
+-make changes
+-git branch b1 /git checkout -b b1 
+-git add .
+-git commit -m "Initial"
+-git push origin b1
+
+
+
+---git pull origin b1
+
+automatically changes in master branch
+-----------------------------------------------------
+---------------------------------------------------------
+if you don't have permission
+
+-fist fork to your  git Hub
+-clone project with your github http link
+-open with vs code
+-make changes
+-git branch b1 /git checkout -b b1 
+-git add .
+-git commit -m "Initial"
+-git push origin b1
+
+-- send pull request
+------------------------------------------------------------
+
+
+
+
+
+
+
+
+
 
 
 
