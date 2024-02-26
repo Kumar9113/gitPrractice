@@ -80,6 +80,60 @@ if you don't have permission
 
 
 
+--version control
+make different version  v1,v2,v3
+1.local version control
+2.centralized version control System(cvcs)
+ -commit
+ -update
+3.Distributed version control System
+
+--git 2005
+ -simple to use 
+ - fast
+ -Branching
+ -fully Distributed
+
+--instalation
+ ~ git --version
+ ~ git Download
+
+ authorization
+
+ --git config
+ ~git config --global user.name "Kumar"
+ ~git config --global user.email "Gogula@gmail.com"
+
+
+--usage
+~open working folder
+~open in powershall
+-first we have Initilize the repo so we have write command like
+~git init(create a repo) its hidden repo
+-default makes master Branch
+~git init -b main
+
+
+--How add files
+ (if create add file as general then)
+ ~chech git status (Show untack files exist in red)
+ then
+ ~git add filename(name.text)
+(check git status)
+~ git status(show file is track but not commit)
+~git commit -m "intial"  (-m message)
+(now file tracked by git and its provide number )
+(follw checksum generate by SHH-1)
+~git log 
+
+
+
+
+
+  
+
+
+
 
 
 
