@@ -1,0 +1,26 @@
+---intialization
+
+~npm install --save-dev jest
+~npm init jest@latest
+--change jest.config(unchange comments where exitst
+        testMatch: [
+    "**/__tests__/**/*.[jt]s?(x)",
+    "**/?(*.)+(spec|test).[tj]s?(x)"
+  ],
+  )
+
+------------------------------
+--create function  and exports
+   --function sum(a,b) {
+  return (
+    a+b
+  )
+}
+
+module.exports={sum}
+
+-----------------------
+ -->create folder like __tests__
+ -->create file name like eg:server.test.js
+ -->in script "test": "jest"
+ ~npm test
