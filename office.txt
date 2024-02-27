@@ -1,3 +1,6 @@
 1->its my first commit before revert
 
 2->git reset commit 
+
+
+4->> its  now one
