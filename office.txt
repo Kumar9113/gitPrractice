@@ -1,12 +1,11 @@
 1->its my first commit before revert
 
-<<<<<<< HEAD
 2->git reset commit 
 
 
 4->> its  now one
 
 4->>2nd new one
-=======
-2->git reset commit 
->>>>>>> parent of 772ccdb (new)
+
+
+fuugdfvdfvdfjv
