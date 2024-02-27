@@ -1,5 +1,6 @@
 1->its my first commit before revert
 
+<<<<<<< HEAD
 2->git reset commit 
 
 
@@ -9,5 +10,3 @@
 
 
 fuugdfvdfvdfjv
-
-bjvgsus dvcs vdcgvs gdv shgdfv hgdsvgdvcgdsvhgs
