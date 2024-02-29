@@ -63,6 +63,12 @@ make different version  v1,v2,v3
  -update
 3.Distributed version control System
 
+--CVCD VS DVCS
+
+1.Download last in CVCD
+2.working slower than DVCS
+3.change of history is saved local and remote repo in dvcd
+
 --git 2005
  -simple to use 
  - fast
